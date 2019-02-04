@@ -2,9 +2,11 @@
   "name": "react-chess-timer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ibjelicic.github.io/react-chess-timer/",
   "dependencies": {
     "@emotion/core": "^10.0.6",
     "@emotion/styled": "^10.0.6",
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-icons": "^3.3.0",
@@ -14,6 +16,8 @@
     "start": "set HTTPS=true && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "yarn build",
+    "deploy" : "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
