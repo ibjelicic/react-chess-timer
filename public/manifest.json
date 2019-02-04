@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "React Chess Timer",
+  "name": "React Chess Timer",
   "icons": [
     {
       "src": "/images/icon192.png",
@@ -20,6 +20,6 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "black",
+  "background_color": "black"
 }
