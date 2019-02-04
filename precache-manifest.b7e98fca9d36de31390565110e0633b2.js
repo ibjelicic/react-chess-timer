@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/react-chess-timer/static/css/main.3b6c3d70.chunk.css"
   },
   {
-    "revision": "129d6676e2cc88cafdb4af0ff8d56888",
+    "revision": "7230942f7e1bf938c7f336ca06ff893a",
     "url": "/react-chess-timer/index.html"
   }
 ];
